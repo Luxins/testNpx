@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-console.log('WooFuckingHoo');
+const	args = process.argv.slice(0);
+console.log("These are my args: ", args);
